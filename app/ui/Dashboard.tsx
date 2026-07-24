@@ -1,19 +1,19 @@
 "use client";
 
 import { useState } from "react";
-import { categories, commodities, type Currency } from "../lib/market";
+import { categories, commodities, latestUpdate, type Currency } from "../lib/market";
 import { CommodityCard } from "./CommodityCard";
 import { MarketHeader } from "./MarketHeader";
 
 export function Dashboard() {
   const [currency,setCurrency] = useState<Currency>("USD");
-  const moved = commodities.filter(c => Math.abs(c.changes.week) >= 1).length;
+  const moved = commodities.filter(c => c.changes.week !== null && Math.abs(c.changes.week) >= 1).length;
   return (
     <>
-      <MarketHeader currency={currency} onCurrency={setCurrency} />
+      <MarketHeader currency={currency} onCurrency={setCurrency} updatedAt={latestUpdate} />
       <main className="shell">
         <section className="hero">
-          <div><div className="eyebrow">Daily market brief · 24 July</div><h1>What changed since yesterday?</h1><p>Seventeen industrial input markets. Official units, transparent sources, and just enough context to see where costs are moving.</p></div>
+          <div><div className="eyebrow">Daily market brief · latest verified data</div><h1>What changed since yesterday?</h1><p>Seventeen industrial input markets. Official units, transparent sources, and just enough context to see where costs are moving.</p></div>
           <div className="pulse"><div className="eyebrow">Market pulse</div><div className="pulse-value">{moved} <span style={{fontSize:14,color:"var(--muted)"}}>/ 17</span></div><div className="pulse-copy">markets moved materially this week</div></div>
         </section>
         {categories.map(category => {

@@ -1,18 +1,36 @@
 # Data sources
 
-Every displayed value identifies its publisher and links to the underlying institution.
+The updater applies this hierarchy independently for each commodity.
 
-| Dataset | Use | Cadence |
+## Priority 1: Trading Economics
+
+The official Trading Economics REST API supplies exchange and benchmark histories when `TRADING_ECONOMICS_API_KEY` is configured and the subscription entitles the requested series. The updater fetches the commodity catalog to resolve current symbols, then requests bounded historical daily data using those symbols.
+
+Target benchmarks: Brent, Henry Hub Natural Gas, Corn, Wheat, Soybeans, Sugar, Copper, and TTF Gas.
+
+## Priority 2: institutions
+
+Institutional fallbacks use public series distributed through FRED:
+
+| Market | Series | Origin |
 |---|---|---|
-| [FRED](https://fred.stlouisfed.org/) | Corn, wheat, soybeans, Henry Hub, Brent, selected benchmark histories | Daily or monthly |
-| [World Bank Pink Sheet](https://www.worldbank.org/en/research/commodity-markets) | Sugar, oils, copper, ammonia, urea | Monthly |
-| [USDA](https://www.usda.gov/) | Dairy prices and agricultural supply context | Weekly or monthly |
-| [FAOSTAT](https://www.fao.org/faostat/) | Cassava and producer rankings | Annual |
-| [UN Comtrade](https://comtradeplus.un.org/) | Exporter and importer rankings | Annual |
-| [Google News RSS](https://news.google.com/rss) | Filtered supply-side headlines | Daily |
+| Brent | `DCOILBRENTEU` | U.S. Energy Information Administration |
+| Henry Hub | `DHHNGSP` | U.S. Energy Information Administration |
+| Sugar | `PSUGAISAUSDM` | World Bank |
+| Corn | `PMAIZMTUSDM` | World Bank |
+| Wheat | `PWHEAMTUSDM` | World Bank |
+| Soybeans | `PSOYBUSDM` | World Bank |
+| Palm Oil | `PPOILUSDM` | World Bank |
+| Rapeseed Oil | `PROILUSDM` | World Bank |
+| Sunflower Oil | `PSUNOUSDM` | World Bank |
+| TTF/European gas fallback | `PNGASEUUSDM` | World Bank |
+| Copper | `PCOPPUSDM` | World Bank |
+| Urea | `PURANUSDM` | World Bank |
 
-News inclusion is limited to harvest, crop quality, weather, logistics, trade, regulation, tariffs, production, capacity, disease, and supply disruption. Stock prices, earnings, analyst opinions, and general market commentary are excluded.
+Institutional frequency is retained: EIA series are daily and World Bank series are monthly. The UI shows the exact source, series identifier, unit, and latest observation timestamp.
 
-Source frequency differs, so “last refresh” and per-card timestamps are separate concepts. A refresh can succeed while an upstream monthly series has no new observation.
+## Unavailable data
 
-Currency conversion is display-only and does not alter official observations. Production and trade rankings use the latest complete annual period because partial-year comparisons are misleading.
+Cassava and ammonia remain unavailable until a reliable benchmark adapter passes the same validation contract. Skim Milk Powder, Whole Milk Powder, and Whey use weekly EU average prices from the EU Milk Market Observatory workbook. The UI renders unavailable states gracefully. No proxy, interpolation, synthetic curve, or fabricated price is substituted.
+
+EU Milk Market Observatory, USDA, FAO, Eurostat, and World Bank direct-download adapters can be added as reviewed sources without changing frontend code; only the generated JSON contract matters.

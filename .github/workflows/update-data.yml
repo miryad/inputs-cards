@@ -20,11 +20,14 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: node scripts/update-data.mjs
+      - name: Fetch, validate, and normalize market data
+        env:
+          TRADING_ECONOMICS_API_KEY: ${{ secrets.TRADING_ECONOMICS_API_KEY }}
+        run: node scripts/update-data.mjs
       - name: Commit validated changes
         run: |
           git config user.name "inputs-cards-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add public/data/market.json
+          git add app/data/commodities.json
           git diff --cached --quiet || git commit -m "data: refresh public market snapshot"
           git push
