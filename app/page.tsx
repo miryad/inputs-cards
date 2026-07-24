@@ -6,8 +6,10 @@ import { CommodityPage } from "./ui/CommodityPage";
 
 export default function Page() {
   const Router = typeof window === "undefined" ? MemoryRouter : BrowserRouter;
+  const baseUrl = import.meta.env.BASE_URL;
+  const basename = baseUrl === "/" ? undefined : baseUrl.replace(/\/$/, "");
   return (
-    <Router>
+    <Router basename={basename}>
       <Routes>
         <Route path="/" element={<Dashboard />} />
         <Route path="/commodity/:slug" element={<CommodityPage />} />

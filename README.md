@@ -30,14 +30,15 @@ Production verification:
 
 ```bash
 pnpm run build
+pnpm run build:pages
 pnpm test
 ```
 
 ## Deployment
 
-Push `main` to GitHub and enable **Settings → Pages → Source: GitHub Actions**. `.github/workflows/deploy-pages.yml` builds and publishes `dist/client`. The router includes a safe root fallback for unknown URLs.
+Push `main` to GitHub and enable **Settings → Pages → Source: GitHub Actions**. `.github/workflows/deploy-pages.yml` runs the dedicated static Vite build and publishes `dist`. The Pages build uses `/inputs-cards/` as its base path, emits `dist/index.html`, and includes a matching `404.html` SPA fallback for direct commodity URLs.
 
-The project also includes Codex Sites hosting metadata for private previews.
+The existing vinext build remains available for Codex Sites private previews; GitHub Pages does not depend on its server or Worker output.
 
 ## Add a commodity
 
