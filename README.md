@@ -14,6 +14,11 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) and [DATA_SOURCES.md](DATA_SOURCES.md) fo
 
 Requirements: Node.js 22 or newer.
 
+The project uses pnpm 11. Dependency install scripts are denied by default;
+the reviewed native build dependencies are explicitly listed under
+`allowBuilds` in `pnpm-workspace.yaml`, so CI installs remain non-interactive
+and fail closed when a new package introduces an unreviewed script.
+
 ```bash
 pnpm install
 pnpm run dev
