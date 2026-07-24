@@ -1,0 +1,1 @@
+{"slug":"soybeans","displayName":"Soybeans","category":"Feedstocks","description":"Protein and lipid feedstock benchmark","icon":"S","unit":"USD/bu","relevance":"★★★★ Feedstock","volatility":"medium","datasets":["fred-soybeans"],"newsSource":"google-news-rss"}

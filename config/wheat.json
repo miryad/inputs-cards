@@ -1,0 +1,1 @@
+{"slug":"wheat","displayName":"Wheat","category":"Feedstocks","description":"Global grain benchmark","icon":"W","unit":"USD/bu","relevance":"★★★★ Feedstock","volatility":"medium","datasets":["fred-wheat"],"newsSource":"google-news-rss"}

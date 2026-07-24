@@ -1,0 +1,21 @@
+export type Commodity = {
+  slug: string;
+  name: string;
+  category: "Feedstocks" | "Oils" | "Food" | "Energy" | "Industrial Signals";
+  description: string;
+  icon: string;
+  unit: string;
+  relevance: string;
+  stars: number;
+  volatility: "Low" | "Medium" | "High";
+  source: string;
+  sourceUrl: string;
+  updatedAt: string;
+  price: number;
+  currencyPrice: boolean;
+  changes: { week: number; month: number; year: number };
+  series: { date: string; value: number }[];
+  producers: { name: string; value: number }[];
+  exporters: { name: string; value: number }[];
+  importers: { name: string; value: number }[];
+};
