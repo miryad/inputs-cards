@@ -8,13 +8,13 @@
       "source": "Identity"
     },
     "EUR": {
-      "value": 0.865127,
-      "updatedAt": "2026-08-07T00:00:00Z",
+      "value": 0.863483,
+      "updatedAt": "2026-08-14T00:00:00Z",
       "source": "Federal Reserve via FRED"
     },
     "CNY": {
-      "value": 6.7474,
-      "updatedAt": "2026-08-07T00:00:00Z",
+      "value": 6.7412,
+      "updatedAt": "2026-08-14T00:00:00Z",
       "source": "Federal Reserve via FRED"
     },
     "RUB": {
@@ -74,10 +74,6 @@
         "year": 38.45
       },
       "series": [
-        {
-          "date": "2016-08-17",
-          "value": 48.58
-        },
         {
           "date": "2016-08-18",
           "value": 49.46
@@ -10252,13 +10248,13 @@
       "source": "World Bank via FRED",
       "sourceUrl": "https://fred.stlouisfed.org/series/PCOPPUSDM",
       "seriesId": "PCOPPUSDM",
-      "updatedAt": "2026-06-01T00:00:00Z",
-      "price": 13552.04090909091,
+      "updatedAt": "2026-07-01T00:00:00Z",
+      "price": 13542.82086956522,
       "currencyPrice": true,
       "changes": {
-        "week": 0.3,
-        "month": 0.3,
-        "year": 37.79
+        "week": -0.07,
+        "month": -0.07,
+        "year": 38.61
       },
       "series": [
         {
@@ -10736,6 +10732,10 @@
         {
           "date": "2026-06-01",
           "value": 13552.04090909091
+        },
+        {
+          "date": "2026-07-01",
+          "value": 13542.82086956522
         }
       ],
       "producers": [],
@@ -10756,13 +10756,13 @@
       "source": "World Bank via FRED",
       "sourceUrl": "https://fred.stlouisfed.org/series/PMAIZMTUSDM",
       "seriesId": "PMAIZMTUSDM",
-      "updatedAt": "2026-06-01T00:00:00Z",
-      "price": 195.7818789965986,
+      "updatedAt": "2026-07-01T00:00:00Z",
+      "price": 213.1901539821428,
       "currencyPrice": true,
       "changes": {
-        "week": -9.2,
-        "month": -9.2,
-        "year": 0.03
+        "week": 8.89,
+        "month": 8.89,
+        "year": 10.78
       },
       "series": [
         {
@@ -11240,6 +11240,10 @@
         {
           "date": "2026-06-01",
           "value": 195.7818789965986
+        },
+        {
+          "date": "2026-07-01",
+          "value": 213.1901539821428
         }
       ],
       "producers": [],
@@ -11269,10 +11273,6 @@
         "year": -8.52
       },
       "series": [
-        {
-          "date": "2016-08-17",
-          "value": 2.76
-        },
         {
           "date": "2016-08-18",
           "value": 2.75
@@ -21316,13 +21316,13 @@
       "source": "World Bank via FRED",
       "sourceUrl": "https://fred.stlouisfed.org/series/PPOILUSDM",
       "seriesId": "PPOILUSDM",
-      "updatedAt": "2026-06-01T00:00:00Z",
-      "price": 1108.681095730554,
+      "updatedAt": "2026-07-01T00:00:00Z",
+      "price": 1106.469929089015,
       "currencyPrice": true,
       "changes": {
-        "week": -1.89,
-        "month": -1.89,
-        "year": 18.64
+        "week": -0.2,
+        "month": -0.2,
+        "year": 18.84
       },
       "series": [
         {
@@ -21800,6 +21800,10 @@
         {
           "date": "2026-06-01",
           "value": 1108.681095730554
+        },
+        {
+          "date": "2026-07-01",
+          "value": 1106.469929089015
         }
       ],
       "producers": [],
@@ -21820,13 +21824,13 @@
       "source": "World Bank via FRED",
       "sourceUrl": "https://fred.stlouisfed.org/series/PROILUSDM",
       "seriesId": "PROILUSDM",
-      "updatedAt": "2026-06-01T00:00:00Z",
-      "price": 1526.195522727273,
+      "updatedAt": "2026-07-01T00:00:00Z",
+      "price": 1500.1025,
       "currencyPrice": true,
       "changes": {
-        "week": 3.65,
-        "month": 3.65,
-        "year": 20.58
+        "week": -1.71,
+        "month": -1.71,
+        "year": 20.88
       },
       "series": [
         {
@@ -22304,6 +22308,10 @@
         {
           "date": "2026-06-01",
           "value": 1526.195522727273
+        },
+        {
+          "date": "2026-07-01",
+          "value": 1500.1025
         }
       ],
       "producers": [],
@@ -22351,13 +22359,13 @@
       "source": "World Bank via FRED",
       "sourceUrl": "https://fred.stlouisfed.org/series/PSOYBUSDM",
       "seriesId": "PSOYBUSDM",
-      "updatedAt": "2026-06-01T00:00:00Z",
-      "price": 414.542332960393,
+      "updatedAt": "2026-07-01T00:00:00Z",
+      "price": 442.4505721529122,
       "currencyPrice": true,
       "changes": {
-        "week": -5.6,
-        "month": -5.6,
-        "year": 8.09
+        "week": 6.73,
+        "month": 6.73,
+        "year": 18.06
       },
       "series": [
         {
@@ -22835,6 +22843,10 @@
         {
           "date": "2026-06-01",
           "value": 414.542332960393
+        },
+        {
+          "date": "2026-07-01",
+          "value": 442.4505721529122
         }
       ],
       "producers": [],
@@ -22855,13 +22867,13 @@
       "source": "World Bank via FRED",
       "sourceUrl": "https://fred.stlouisfed.org/series/PSUGAISAUSDM",
       "seriesId": "PSUGAISAUSDM",
-      "updatedAt": "2026-06-01T00:00:00Z",
-      "price": 13.90772727272727,
+      "updatedAt": "2026-07-01T00:00:00Z",
+      "price": 14.81227272727273,
       "currencyPrice": false,
       "changes": {
-        "week": -5.84,
-        "month": -5.84,
-        "year": -14.29
+        "week": 6.5,
+        "month": 6.5,
+        "year": -9.49
       },
       "series": [
         {
@@ -23339,6 +23351,10 @@
         {
           "date": "2026-06-01",
           "value": 13.90772727272727
+        },
+        {
+          "date": "2026-07-01",
+          "value": 14.81227272727273
         }
       ],
       "producers": [],
@@ -23359,13 +23375,13 @@
       "source": "World Bank via FRED",
       "sourceUrl": "https://fred.stlouisfed.org/series/PSUNOUSDM",
       "seriesId": "PSUNOUSDM",
-      "updatedAt": "2026-06-01T00:00:00Z",
-      "price": 1805.889583363636,
+      "updatedAt": "2026-07-01T00:00:00Z",
+      "price": 1786.892210086957,
       "currencyPrice": true,
       "changes": {
-        "week": -0.09,
-        "month": -0.09,
-        "year": 24.83
+        "week": -1.05,
+        "month": -1.05,
+        "year": 20.17
       },
       "series": [
         {
@@ -23843,6 +23859,10 @@
         {
           "date": "2026-06-01",
           "value": 1805.889583363636
+        },
+        {
+          "date": "2026-07-01",
+          "value": 1786.892210086957
         }
       ],
       "producers": [],
@@ -23863,13 +23883,13 @@
       "source": "World Bank via FRED",
       "sourceUrl": "https://fred.stlouisfed.org/series/PNGASEUUSDM",
       "seriesId": "PNGASEUUSDM",
-      "updatedAt": "2026-06-01T00:00:00Z",
-      "price": 15.092,
+      "updatedAt": "2026-07-01T00:00:00Z",
+      "price": 17.93,
       "currencyPrice": true,
       "changes": {
-        "week": -6.57,
-        "month": -6.57,
-        "year": 22.69
+        "week": 18.8,
+        "month": 18.8,
+        "year": 56.31
       },
       "series": [
         {
@@ -24347,6 +24367,10 @@
         {
           "date": "2026-06-01",
           "value": 15.092
+        },
+        {
+          "date": "2026-07-01",
+          "value": 17.93
         }
       ],
       "producers": [],
@@ -24367,13 +24391,13 @@
       "source": "World Bank via FRED",
       "sourceUrl": "https://fred.stlouisfed.org/series/PURANUSDM",
       "seriesId": "PURANUSDM",
-      "updatedAt": "2026-06-01T00:00:00Z",
-      "price": 69.11377193909091,
+      "updatedAt": "2026-07-01T00:00:00Z",
+      "price": 69.23377817652174,
       "currencyPrice": true,
       "changes": {
-        "week": 0.08,
-        "month": 0.08,
-        "year": 16.01
+        "week": 0.17,
+        "month": 0.17,
+        "year": 17.45
       },
       "series": [
         {
@@ -24851,6 +24875,10 @@
         {
           "date": "2026-06-01",
           "value": 69.11377193909091
+        },
+        {
+          "date": "2026-07-01",
+          "value": 69.23377817652174
         }
       ],
       "producers": [],
@@ -24871,13 +24899,13 @@
       "source": "World Bank via FRED",
       "sourceUrl": "https://fred.stlouisfed.org/series/PWHEAMTUSDM",
       "seriesId": "PWHEAMTUSDM",
-      "updatedAt": "2026-06-01T00:00:00Z",
-      "price": 199.6482875619048,
+      "updatedAt": "2026-07-01T00:00:00Z",
+      "price": 228.73884495,
       "currencyPrice": true,
       "changes": {
-        "week": -9.61,
-        "month": -9.61,
-        "year": 15.27
+        "week": 14.57,
+        "month": 14.57,
+        "year": 38.41
       },
       "series": [
         {
@@ -25355,6 +25383,10 @@
         {
           "date": "2026-06-01",
           "value": 199.6482875619048
+        },
+        {
+          "date": "2026-07-01",
+          "value": 228.73884495
         }
       ],
       "producers": [],
