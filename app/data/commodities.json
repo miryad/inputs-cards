@@ -8,13 +8,13 @@
       "source": "Identity"
     },
     "EUR": {
-      "value": 0.888178,
-      "updatedAt": "2026-10-02T00:00:00Z",
+      "value": 0.893416,
+      "updatedAt": "2026-10-09T00:00:00Z",
       "source": "Federal Reserve via FRED"
     },
     "CNY": {
-      "value": 6.7038,
-      "updatedAt": "2026-10-02T00:00:00Z",
+      "value": 6.692,
+      "updatedAt": "2026-10-09T00:00:00Z",
       "source": "Federal Reserve via FRED"
     },
     "RUB": {
@@ -74,10 +74,6 @@
         "year": 86.97
       },
       "series": [
-        {
-          "date": "2016-10-13",
-          "value": 49.29
-        },
         {
           "date": "2016-10-14",
           "value": 48.87
@@ -11253,10 +11249,6 @@
         "year": -8.73
       },
       "series": [
-        {
-          "date": "2016-10-13",
-          "value": 3.16
-        },
         {
           "date": "2016-10-14",
           "value": 3.18
