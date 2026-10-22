@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-14T00:00:00Z",
+  "updatedAt": "2026-10-20T00:00:00Z",
   "exchangeRates": {
     "USD": {
       "value": 1,
@@ -65,19 +65,15 @@
       "source": "U.S. EIA via FRED",
       "sourceUrl": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
       "seriesId": "DCOILBRENTEU",
-      "updatedAt": "2026-10-14T00:00:00Z",
-      "price": 126.55,
+      "updatedAt": "2026-10-20T00:00:00Z",
+      "price": 115.22,
       "currencyPrice": true,
       "changes": {
-        "week": 0.44,
-        "month": 4.37,
-        "year": 100.87
+        "week": -8.4,
+        "month": -3.71,
+        "year": 89.79
       },
       "series": [
-        {
-          "date": "2016-10-21",
-          "value": 50.28
-        },
         {
           "date": "2016-10-24",
           "value": 49.8
@@ -10197,6 +10193,22 @@
         {
           "date": "2026-10-14",
           "value": 126.55
+        },
+        {
+          "date": "2026-10-15",
+          "value": 126.35
+        },
+        {
+          "date": "2026-10-16",
+          "value": 119.33
+        },
+        {
+          "date": "2026-10-19",
+          "value": 118.82
+        },
+        {
+          "date": "2026-10-20",
+          "value": 115.22
         }
       ],
       "producers": [],
@@ -11244,19 +11256,15 @@
       "source": "U.S. EIA via FRED",
       "sourceUrl": "https://fred.stlouisfed.org/series/DHHNGSP",
       "seriesId": "DHHNGSP",
-      "updatedAt": "2026-10-14T00:00:00Z",
-      "price": 3.22,
+      "updatedAt": "2026-10-20T00:00:00Z",
+      "price": 3.1,
       "currencyPrice": true,
       "changes": {
-        "week": 1.9,
-        "month": 12.98,
-        "year": 13.78
+        "week": -1.27,
+        "month": 4.38,
+        "year": 3.68
       },
       "series": [
-        {
-          "date": "2016-10-21",
-          "value": 2.92
-        },
         {
           "date": "2016-10-24",
           "value": 2.78
@@ -21272,6 +21280,22 @@
         {
           "date": "2026-10-14",
           "value": 3.22
+        },
+        {
+          "date": "2026-10-15",
+          "value": 3.3
+        },
+        {
+          "date": "2026-10-16",
+          "value": 3.22
+        },
+        {
+          "date": "2026-10-19",
+          "value": 3.28
+        },
+        {
+          "date": "2026-10-20",
+          "value": 3.1
         }
       ],
       "producers": [],
