@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T00:00:00Z",
+  "updatedAt": "2026-11-24T00:00:00Z",
   "exchangeRates": {
     "USD": {
       "value": 1,
@@ -65,19 +65,15 @@
       "source": "U.S. EIA via FRED",
       "sourceUrl": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
       "seriesId": "DCOILBRENTEU",
-      "updatedAt": "2026-11-17T00:00:00Z",
-      "price": 92.94,
+      "updatedAt": "2026-11-24T00:00:00Z",
+      "price": 91.8,
       "currencyPrice": true,
       "changes": {
-        "week": 3.08,
-        "month": -22.12,
-        "year": 47.15
+        "week": -1.23,
+        "month": -28.45,
+        "year": 41.6
       },
       "series": [
-        {
-          "date": "2016-11-25",
-          "value": 46.32
-        },
         {
           "date": "2016-11-28",
           "value": 46.64
@@ -10193,6 +10189,26 @@
         {
           "date": "2026-11-17",
           "value": 92.94
+        },
+        {
+          "date": "2026-11-18",
+          "value": 92.88
+        },
+        {
+          "date": "2026-11-19",
+          "value": 95.17
+        },
+        {
+          "date": "2026-11-20",
+          "value": 92.76
+        },
+        {
+          "date": "2026-11-23",
+          "value": 91.2
+        },
+        {
+          "date": "2026-11-24",
+          "value": 91.8
         }
       ],
       "producers": [],
@@ -11248,19 +11264,15 @@
       "source": "U.S. EIA via FRED",
       "sourceUrl": "https://fred.stlouisfed.org/series/DHHNGSP",
       "seriesId": "DHHNGSP",
-      "updatedAt": "2026-11-17T00:00:00Z",
-      "price": 3.1,
+      "updatedAt": "2026-11-24T00:00:00Z",
+      "price": 3.3,
       "currencyPrice": true,
       "changes": {
-        "week": 3.33,
-        "month": -3.73,
-        "year": -16.44
+        "week": 6.45,
+        "month": 18.71,
+        "year": -20.48
       },
       "series": [
-        {
-          "date": "2016-11-25",
-          "value": 2.76
-        },
         {
           "date": "2016-11-28",
           "value": 2.96
@@ -21272,6 +21284,26 @@
         {
           "date": "2026-11-17",
           "value": 3.1
+        },
+        {
+          "date": "2026-11-18",
+          "value": 3.24
+        },
+        {
+          "date": "2026-11-19",
+          "value": 3.31
+        },
+        {
+          "date": "2026-11-20",
+          "value": 3.29
+        },
+        {
+          "date": "2026-11-23",
+          "value": 3.28
+        },
+        {
+          "date": "2026-11-24",
+          "value": 3.3
         }
       ],
       "producers": [],
